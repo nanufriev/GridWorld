@@ -34,7 +34,7 @@ public class Program
 
                 if (_agent.Position.X == _config.GoalPosition.X && _agent.Position.Y == _config.GoalPosition.Y)
                 {
-                    _currentReward += 10;
+                    _currentReward += _config.PositiveReward;
                     PrintMap(_config.Map, _agent.Position);
                     Console.WriteLine(
                         $"Reached the goal! Reward: {_currentReward}, moves count: {_config.MoveCount - _movesLeft}");
