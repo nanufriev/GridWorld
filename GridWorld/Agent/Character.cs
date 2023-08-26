@@ -5,6 +5,7 @@ public class Character : IAgent
     private const int BACKWARD_MOVE_PENALTY = 10;
     
     public event Action? OnInvalidMove;
+    
     public Vector2 Position { get; private set; }
 
     private readonly Vector2 _initPosition;
