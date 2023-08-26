@@ -1,0 +1,15 @@
+﻿# Map Configuration
+WWWW
+.WS.
+WGW.
+W...
+
+#Move Configuration
+MoveCount: 10
+
+#Reward Configuration
+PositiveReward: 10
+NegativeReward: 1
+
+#Simulation Settings
+DelayBetweenPrintMs: 500
