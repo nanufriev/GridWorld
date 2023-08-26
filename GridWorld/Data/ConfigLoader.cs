@@ -43,9 +43,9 @@ public class ConfigLoader
     
     private static Vector2 FindPosition(char target, char[][] map)
     {
-        for (int x = 0; x < map.Length; x++)
+        for (var x = 0; x < map.Length; x++)
         {
-            for (int y = 0; y < map[x].Length; y++)
+            for (var y = 0; y < map[x].Length; y++)
             {
                 if (map[x][y] == target)
                 {

@@ -32,7 +32,7 @@ public class Program
 
                 _agent.Move(_config.GoalPosition, IsValidMove);
 
-                if (_agent.Position.X == _config.GoalPosition.X && _agent.Position.Y == _config.GoalPosition.Y)
+                if (_agent.Position.Equals(_config.GoalPosition))
                 {
                     _currentReward += _config.PositiveReward;
                     PrintMap(_config.Map, _agent.Position);

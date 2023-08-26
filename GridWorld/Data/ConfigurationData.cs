@@ -1,6 +1,4 @@
-﻿using System.Numerics;
-
-namespace GridWorld.Data;
+﻿namespace GridWorld.Data;
 
 public class ConfigurationData
 {
