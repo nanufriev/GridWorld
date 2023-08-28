@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridWorld", "GridWorld\GridWorld.csproj", "{69957E3F-73BF-42BA-895A-279601BD3D27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{3C04F27B-3058-4A07-8DB6-A2C832C9D75D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{69957E3F-73BF-42BA-895A-279601BD3D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69957E3F-73BF-42BA-895A-279601BD3D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69957E3F-73BF-42BA-895A-279601BD3D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C04F27B-3058-4A07-8DB6-A2C832C9D75D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C04F27B-3058-4A07-8DB6-A2C832C9D75D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C04F27B-3058-4A07-8DB6-A2C832C9D75D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C04F27B-3058-4A07-8DB6-A2C832C9D75D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
